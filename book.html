@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Book</title>
+
+   <!-- Bootstrap CSS link -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <!-- Font Awesome CDN link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <!-- Custom CSS file link -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- Header section starts  -->
+<section class="header">
+
+   <a href="home.html" class="logo">Digiwaves Tech</a>
+
+   <nav class="navbar">
+      <a href="home.html">home</a>
+      <a href="about.html">about</a>
+      <a href="portfolio.html">portfolio</a>
+      <a href="book.html">book</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+<!-- Header section ends -->
+
+<div class="heading" style="background:url(images/book-img.jpg) no-repeat">
+   <h1>Book Now</h1>
+</div>
+
+<!-- Booking section starts  -->
+<section class="booking">
+   <h1 class="heading-title">Schedule a Call</h1>
+   <form action="book_form.html" method="post" class="book-form" netlify>
+      <div class="form-group">
+         <label for="first_name">First Name:</label>
+         <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Enter your first name" required>
+      </div>
+      <div class="form-group">
+         <label for="last_name">Last Name:</label>
+         <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Enter your last name" required>
+      </div>
+      <div class="form-group">
+         <label for="phone">Mobile No:</label>
+         <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your mobile number">
+      </div>
+      <div class="form-group">
+         <label for="message">Message:</label>
+         <textarea class="form-control" id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+         <label for="call_time">Preferred Call Time (Optional):</label>
+         <input type="datetime-local" class="form-control" id="call_time" name="call_time">
+      </div>
+      <button type="submit" class="btn">Schedule Call</button>
+   </form>
+</section>
+<!-- Booking section ends -->
+
+<!-- Footer section starts  -->
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
+         <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
+         <a href="portfolio.html"> <i class="fas fa-angle-right"></i> portfolios</a>
+         <a href="book.html"> <i class="fas fa-angle-right"></i> book</a>
+      </div>
+
+   
+      <div class="box">
+         <h3>contact info</h3>
+         <a href="#"> <i class="fas fa-phone"></i>+91 8103660941 </a>
+         <a href="#"> <i class="fas fa-phone"></i>+91 7891758828 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> digiwavestech1@gmail.com </a>
+         <a href="#"> <i class="fas fa-map"></i> Indore, India </a>
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <span>Digiwaves Tech</span> | all rights reserved! </div>
+
+</section>
+<!-- Footer section ends -->
+
+<!-- Bootstrap JS link -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Custom JS file link -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
